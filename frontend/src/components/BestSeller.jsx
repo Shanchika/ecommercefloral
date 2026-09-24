@@ -6,7 +6,7 @@ import ProductItem from './ProductItem';
 const BestSeller = () => {
   const { products } = useContext(ShopContext);
   const [bestSeller, setBestSeller] = useState([]);
-
+//ASA//
   useEffect(() => {
     console.log(products); // Log products to ensure data is fetched
     const bestProduct = products.filter((item) => item.bestSeller);

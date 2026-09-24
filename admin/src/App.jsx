@@ -14,7 +14,7 @@ import UpdateProduct from './pages/UpdateProduct';
 
 export const backendUrl = "http://localhost:4000"
 export const currency='LKR'
-
+//ddAD//
 const App = () => {
 
   const [token, setToken] = useState(localStorage.getItem('token')? localStorage.getItem('token'):'');
